@@ -1,0 +1,13 @@
+{{#link-to 'sw.add'}}Add one.{{/link-to}}
+
+<div class="ui list">
+  {{#each swList as |sw|}}
+    <li>
+      {{#link-to 'sw.edit' sw}}
+        {{sw.name}}
+      {{/link-to}}
+    </li>
+  {{else}}
+    No list here. {{#link-to 'sw.add'}}Add one.{{/link-to}}
+  {{/each}}
+</div>

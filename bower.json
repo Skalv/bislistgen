@@ -2,6 +2,8 @@
   "name": "bislistgen",
   "dependencies": {
     "ember": "~2.8.0",
-    "ember-cli-shims": "0.1.1"
+    "ember-cli-shims": "0.1.1",
+    "blob-polyfill": "^1.0.20150320",
+    "semantic-ui": "^2.2.4"
   }
 }

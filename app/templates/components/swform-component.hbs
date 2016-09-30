@@ -1,0 +1,56 @@
+<div class="ui mini equal width form">
+  <div class="fields">
+    <div class="field">
+      <label>Name</label>
+      {{input type='text' value=sw.name}}
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Agility</label>
+      {{input type='number' value=sw.agi}}
+    </div>
+    <div class="field">
+      <label>Stamina</label>
+      {{input type='number' value=sw.sta}}
+    </div>
+    <div class="field">
+      <label>strength</label>
+      {{input type='number' value=sw.str}}
+    </div>
+    <div class="field">
+      <label>Intellect</label>
+      {{input type='number' value=sw.int}}
+    </div>
+    <div class="field">
+      <label>Critic</label>
+      {{input type='number' value=sw.crit}}
+    </div>
+    <div class="field">
+      <label>Haste</label>
+      {{input type='number' value=sw.hast}}
+    </div>
+    <div class="field">
+      <label>Mastery</label>
+      {{input type='number' value=sw.mast}}
+    </div>
+    <div class="field">
+      <label>Versatility</label>
+      {{input type='number' value=sw.ver}}
+    </div>
+    <div class="field">
+      <label>Leech</label>
+      {{input type='number' value=sw.lee}}
+    </div>
+    <div class="field">
+      <label>Avoidance</label>
+      {{input type='number' value=sw.avoid}}
+    </div>
+  </div>
+
+
+  <button class="ui primary button"
+        {{action "saveSw" sw}}>
+    Save
+  </button>
+</div>
